@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial
+}
+
+body {
+  background: #efefef;
+  padding: 3%
+}
+
+.nav {
+  background-image: url('./media/img_hero.jpg');
+  background-size: contain;
+  height: 400px;
+  width: 100%;
+  text-align: center
+}
+
+.black {
+  background: black;
+  height: 10%;
+}
+
+.h1 {
+  font-size: 8vh;
+  font-family: arial;
+  margin-top: 100px
+}
+
+.pic {
+  border-radius: 50%;
+  margin: 140px 20px 0 20px;
+  height: 170px;
+  width: 170px;
+}
+
+#middle {
+  background: #efefef;
+  height: 600px;
+  text-align: center
+}
+
+.h2 {
+  color: #E8BE02;
+  margin-top: 200px;
+  font-size: 6vh
+}
+
+.p {
+  margin: 30px 200px 0 200px
+}
+
+#little-images {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto;
+}
+
+.one {
+  display: flex;
+}
+
+.l1 {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px
+}
+
+.word {
+  width: 150px
+}
+
+.name {
+  color: #E8BE02;
+  font-weight: 900;
+  font-size: 1vw
+}
+
+#footer {
+  margin-top: 50px;
+  background: black;
+  color: white;
+  height: 200px;
+}
+
+.yellow {
+  width: 100%;
+  height: 20px;
+  background: #E8BE02;
+
+}
+
+#bottom-wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px auto
+}
+
+.box {
+  background: green;
+  height: 130px;
+  width: 130px;
+
+}
